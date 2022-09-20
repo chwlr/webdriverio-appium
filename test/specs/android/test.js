@@ -1,4 +1,4 @@
-describe('Sample', () => {
+describe('Test', () => {
     it('Sample Test', () => {
         
     })

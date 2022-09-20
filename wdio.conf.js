@@ -24,7 +24,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/android/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -57,7 +57,7 @@ exports.config = {
         "appium:platformVersion": "11",
         "appium:deviceName": "Pixel 5 API 30",
         "appium:automationName": "UIAutomator2",
-        "appium:app": path.join(process.cwd(), "./app/android/ApiDemos-debug.apk")
+        "appium:app": path.join(process.cwd(), "./app/android/app-debug.apk")
     }],
     //
     // ===================
